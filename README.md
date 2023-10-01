@@ -1,7 +1,6 @@
 # Project Semester 5
 For this module, I would like to create a project that resembles a finished product available on the market. Ever since I got started with 3d printing over the summer, my CAD skills have improved greatly. I am excited to combine my design skills with various technologies and programming methodologies I have acquired throughout my course.
 
-![image](https://github.com/AndrewK0val/IoT-Camera-System/assets/91613044/6c393a73-c301-4be0-a100-d5c5e938d0b5)
 
 In the previous semester, I created a crude home security system consisting of a single ESP32 camera, a raspberry pi with a camera running MotionEyeOS. These IP cameras were connected to a central server that I crudely constructed from an old HP laptop.
 
@@ -17,13 +16,7 @@ My previous system had several shortcomings:
 In this semester I would like to address these shortcomings in order to create an ecosystem of home security products similar to brands like Ring, or Ubiquiti.
 
 
-![image](https://github.com/AndrewK0val/IoT-Camera-System/assets/91613044/91584b8d-7ab0-41d7-8ca4-e83c9935fc32)
-
-![image](https://github.com/AndrewK0val/IoT-Camera-System/assets/91613044/d20c92f0-ba4c-45d1-850a-c46e8c401e82)
-
 I would like to utilize machine learning to count people passing the front entrance of a home. Perhaps I could create a mobile app using React Native rather than a webpage in order to display video feed and various controls.
-
-![image](https://github.com/AndrewK0val/IoT-Camera-System/assets/91613044/6cb362a0-eb46-4bd2-a9b9-f76c76f9dc52)
 
 
 
