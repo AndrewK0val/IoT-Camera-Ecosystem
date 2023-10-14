@@ -30,14 +30,14 @@ I bought some inexpensive microphone modules from AliExpress and I will be using
 
 Here are some renders of the enclosure I made in Blender:
 
-![Alt text](renders/RENDER-1.png)
-![Alt text](renders/RENDER-2.png)
-![Alt text](renders/RENDER-3.png)
+![Alt text](pictures/renders/RENDER-1.png)
+![Alt text](pictures/renders/RENDER-2.png)
+![Alt text](pictures/renders/RENDER-3.png)
 
 Here is an exploded view for more context on how the enclosure will be assembled:
 
-![Alt text](renders/EXPLODED-VIEW-1.png)
-![Alt text](renders/EXPLODED-VIEW-2.png)
+![Alt text](pictures/renders/EXPLODED-VIEW-1.png)
+![Alt text](pictures/renders/EXPLODED-VIEW-2.png)
 
 ## Update 2 -  Researching the WebRTC protocol
 after looking at various options for video streaming for the Raspberry pi, I decided to use WebRTC. This is a protocol that allows for real time communication between two clients. It is used in many video conferencing applications such as Zoom, Google Meet, and Discord. It is a very robust protocol that is capable of handling video, audio, and data streams.
