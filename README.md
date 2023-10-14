@@ -45,3 +45,39 @@ after looking at various options for video streaming for the Raspberry pi, I dec
 I am currently following this tutorial to get a basic video stream up and running:
 
 [![Alt text](https://img.youtube.com/vi/DvlyzDZDEq4/0.jpg)](https://www.youtube.com/watch?v=DvlyzDZDEq4)
+
+
+## Update 3 -  1st set of prints for doorbell camera enclosure
+
+All together, this took me about two weeks to print the parts for the first prototype as I was only able to print during the weekends.
+
+If you look closely, you might notice the lack of joints between the parts.
+I first wanted to see the parts in the real world in order to make decisions on where to place screw joints for the next iteration.
+I also plan to add a magnetically attachable fixture to hold the raspberry pi.
+
+Two of the parts were printed in PLA+ and the other two were printed in translucent PETG. I wanted the doorbell to have lighting effects to give the user visual feedback when the device is pressed and therefore the PETG piece sandwiched between the two opaque PLA pieces will diffuse light from the LEDs.
+
+![Alt text](pictures/images/IMG_2731.jpeg)
+
+<p align="center">
+  <img src="pictures/images/FF1C827C-35B3-4AAF-9804-332A93230B10.png" alt="" width="45%" style="display: inline-flex; margin-right: 10px;">
+  <img src="pictures/images/image2.png" alt="" width="45%" style="display: inline-flex; margin-left: 10px;">
+</p>
+
+I hated the look of the layer lines in my parts, which were especially visible in the rounded top piece. After some sanding starting with 100 grit and finishing with 800, I was still able to see the layer lines.
+
+ I decided to try wood filler mixed with a small drop of PVA glue for a more spreadable consistency. I applied this mixture with a splatula, letting it dry in the sun for 10 minutes.
+ After going back with 240 grit, I was really happy with how well the mixture made its way between the layer lines. I then went back with 800 grit and 1200 grit to finish the sanding process.
+<p align="center">
+  <img src="pictures/images/IMG_2733.jpeg" alt="" width="45%" style="display: inline-flex; margin-right: 10px;">
+  <img src="pictures/images/IMG_2734.jpeg" alt="" width="45%" style="display: inline-flex; margin-left: 10px;">
+</p>
+
+The bottom PETG piece was printed after the smoothing process and I was really happy with the results. I will definitely be using this technique in the future.
+
+![Alt text](pictures/images/IMG_2735.jpeg)
+
+
+My main goal for the next set of prints is to create screw joints and model fixtures for the raspberry pi with the camera module, laptop speakers and microphone module.
+
+
