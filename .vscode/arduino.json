@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM4",
+    "programmer": "arduinoisp",
+    "sketch": "arduinoToPi-I2S-experiment\\I2S-arduino.ino"
+}

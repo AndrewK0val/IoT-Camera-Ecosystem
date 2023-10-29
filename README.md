@@ -80,4 +80,19 @@ The bottom PETG piece was printed after the smoothing process and I was really h
 
 My main goal for the next set of prints is to create screw joints and model fixtures for the raspberry pi with the camera module, laptop speakers and microphone module.
 
+## update 4 - pain and frustration with WebRTC and camera configuration
+
+I have been trying to get a basic video stream up and running for the past two weeks. I have been following several tutorials on youtube however after following the steps exactly, I was unsuccessful in getting a video stream to work between two browser clients to work.
+
+I decided to put webRTC on hold for now and started testing my new OV5640 night vision camera for the raspberry pi. This process was not so straightforward as I could not make the camera or the official raspberry pi camera module to show up in interfaces when I ran raspi-config. I tried running vcgencmd get_camera to find out its not detected however when I ran lsmod I discovered that the camera sensor was showing up in the kernel.
+
+I thought there was a defect on the pi 3 I was using so I flashed a new image of raspbian 64bit to my other pi which ran octopi with a working camera module so I thought that the pi 4 would work no problem but it didn't which proved that this was an OS issue. 
+
+After digging through forums and Reddit threads, a number of people mentioned how they had trouble with the 64bit version of raspbian and that they had to use the 32bit version in order to get the camera to work. I flashed the 32bit version of raspbian and the camera still did not show up in interfaces. 
+
+I was on the brink of giving up at this point however it felt as though the soultion was right in front of me. I knew that octopi was doing something which made the camera work and I noticed with the people that had the camera show up in interfaces it said **legacy** camera support. This was a lightbulb moment for me -I remembered seeing a third raspbian option in the PI imager called 32bit legacy. I flashed this image and the camera showed up in interfaces. I was able to get a simple video with FFMPEG which was a huge relief.
+
+After this I started experimenting with sending analog audio from a MAX9814 microphone module to an arduino and have the arduino send the audio stream to the pi through the I2S protocol. This endeavor was also not so straightforward as I was unable to figure out how to interpret the data from the arduino on the Pi's side. At least I was able to get a good analog reading of the microphone data on the arduino side in serial plotter.
+
+```
 
